@@ -8,7 +8,7 @@ const AboutMe = () => {
        <div className='flex justify-center '>
        <div className='w-[55vw] h-[100vh]  flex items-center flex-col mt-20'>
     <div className=''>
-        <div className='text-[30px] font-semibold '>About Josephine</div>
+        <div className='text-[30px] font-semibold '>About Me</div>
       <div className='flex justify-center items-center  mt-10'>
         <div className='w-1/2 '>
             <img className='w-[400px] h-full mt-5 rounded-[5px] object-cover ' 
