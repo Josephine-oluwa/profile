@@ -4,7 +4,7 @@ const Latest = () => {
   return (
     <div className='w-full h-[100vh] flex justify-center items-center'>
         <div className='w-[60vw] h-full bg-slate-200'>
-    <div className='text-[30px]  font-semibold'>Latest Work</div>
+    <div className='text-[30px]  font-semibold'>Latest Projects</div>
     <div className='flex gap-10'>
         <div className='w-[350px] h-[450px] flex flex-col justify-between mt-10'>
             <div className='w-full h-[300px] bg-pink-300 rounded '> </div>
