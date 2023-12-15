@@ -9,6 +9,8 @@ import Skills from "../pages/Screen/Skills";
 import Latest from "../pages/Screen/Latest";
 import Footer from "../pages/Screen/Footer";
 import Blogs from "../pages/Screen/Blogs";
+import AfriHAck from "../pages/Screen/AfriHAck";
+import BinCheck from "../pages/Screen/BinCheck";
 
 
 
@@ -32,10 +34,17 @@ export const mainRoute = createBrowserRouter ([
                     path: "/about",
                     element: <AboutMe/>
                 },
+         
+         
             {
             
                     path: "/service",
                     element: <Services/>
+                },
+            {
+            
+                    path: "/blogs",
+                    element: <Blogs/>
                 },
             {
             

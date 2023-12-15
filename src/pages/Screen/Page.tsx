@@ -5,15 +5,20 @@ import Skills from './Skills'
 import Latest from './Latest'
 import Footer from './Footer'
 import Services from './Services'
+import Blogs from './Blogs'
+import Testimonials from './Testimonials'
+import Header from '../../Components/common/Header'
 
 const Page = () => {
   return (
     <div>
+        <Header/>
         <HomeScreen/>
-        <AboutMe/>
+       <AboutMe />  
         <Services/>
         <Skills/>
         <Latest/>
+        <Blogs/>
         <Footer/>
     </div>
   )

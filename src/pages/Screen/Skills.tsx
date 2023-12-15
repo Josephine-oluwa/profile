@@ -17,20 +17,24 @@ import { SiPostman } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div className='w-full h-[100vh]  flex items-center justify-center'>
-       <div className='w-[60vw]  flex items-center '>
+    <div className='w-full h-[120vh]  flex items-center justify-center phone:flex-row-reverse  '>
+       <div className='w-[60vw]  flex items-center  '>
        <div className='w-1/2 h-[100vh] '> 
       <div className='flex flex-col '>
       <span className='text-[30px] font-semibold'>Skills and Experience</span>
       <div className='w-[50px] h-0.5 bg-[#ff7e20] mt-5'></div>
-      <span className='text-[20px] mt-5 ml-5'>As a frontend developer, my passion and <br/>
-       attention to detail are dedicated  <br/>
-        to crafting visually appealing and<br/>
-         highly functional web applications.</span>
+      <span className='text-[20px] mt-5 ml-5 w-[400px]'>My tech prowess is a symphony of versatility -adept coding, UI/UX design finesse, and seamless project management 
+showcase a rare blend of skills. From developing robust algorithms to crafting user-friendly interfaces, 
+my multi-talented approach not only accelerates projects but elevates the entire tech experience. 
+In a rapidly evolving landscape, my diverse skill set is a game-changer, ensuring innovation at every turn.
+
+      <br/>
+         </span>
       </div>
      <div className='flex '>
-     <div className='w-full h-[200px] mt-20 flex gap-5  flex-wrap'> 
+     <div className='w-full h-[200px] mt-20 flex gap-5  flex-wrap phone:flex-wrap'> 
 
+ 
    <div className='w-[100px] h-[100px] bg-gray-200  rounded text-[30px] flex justify-center items-center flex-col ' ><FaHtml5 /><span className="text-[15px] mt-2">HTML</span> </div> 
    <div className='w-[100px] h-[100px] bg-gray-200  rounded  text-[30px] flex justify-center items-center flex-col  ' ><FaCss3Alt /><span className="text-[15px]  mt-2">CSS</span></div>
    <div className='w-[100px] h-[100px] bg-gray-200  rounded  text-[30px] flex justify-center items-center flex-col ' ><SiJavascript /><span className="text-[15px] mt-2">JavaScript</span></div>
@@ -59,29 +63,29 @@ const Skills = () => {
 
 
 
-        <div className='w-1/2 h-[100vh] '> 
-        <span className='text-[20px] font-bold'>Experience</span>
+        <div className='w-1/2 h-[100vh] font-bold '> 
+        <span className='text-[25px] font-bold'>Experience</span>
         
        
-    <div className='w-full h-[100px] border-black    border-y-2  flex justify-between items-center mt-20'>
+    <div className='w-full h-[100px] border-b border-solid border-gray-300  flex justify-between items-center mt-20'>
    
-       <center className='px-2 py-2 w-[200px] bg-slate-100  h-10 rounded-[20px] ml-3'> 2021 - Present</center>
-       <span>SoftWare Engineer</span>
+       <center className='px-2 py-2 w-[200px] bg-slate-100  border border-black h-10 rounded-[20px] ml-3'> 2022 - Present</center>
+       <span className="text-[25px] ">Software Engineer</span>
        <span className='mr-3'>Codelab</span>
     
     </div>
-    <div className='w-full h-[100px]  flex justify-between items-center'>
+    <div className='w-full h-[100px] border-b border-solid border-gray-300 flex justify-between items-center'>
    
-       <center className='px-2 py-2 w-[200px] bg-slate-100  border  h-10 rounded-[20px] ml-3'> 2021 - Present</center>
-       <span>SoftWare Engineer</span>
-       <span className='mr-3'>Codelab</span>
+       <center className='px-2 py-2 w-[200px] bg-slate-100  border border-black h-10 rounded-[20px] ml-3'> 2021 - 2022</center>
+       <span className="text-[25px] font-bold">UI/UX Design</span>
+       <span className='mr-3'>Hagitals</span>
     
     </div>
-    <div className='w-full h-[100px] border-black    border-y-2 flex justify-between items-center'>
+    <div className='w-full h-[100px] border-b border-solid border-gray-300  flex justify-between items-center'>
    
-       <center className='px-2 py-2 w-[200px] bg-slate-100  h-10 rounded-[20px] ml-3'> 2021 - Present</center>
-       <span>SoftWare Engineer</span>
-       <span className='mr-3'>Codelab</span>
+       <center className='px-2 py-2 w-[200px] bg-slate-100 border border-black h-10 rounded-[20px] ml-3'> 2017 - 2021</center>
+       <span className="text-[25px]">Web Designer</span>
+       <span className='mr-3'>Kclick</span>
     
     </div>
 
@@ -91,6 +95,8 @@ const Skills = () => {
        </div>
        
     </div>
+    
+
   )
 }
 
