@@ -1,21 +1,13 @@
 import {AiOutlineMenu} from "react-icons/ai"
-import { Link } from "react-scroll/modules";
+import { Link } from "react-router-dom"
 
-import {useState} from "react"
+
+
+
 
 
 const Header = () => {
-        // const [show, setShow] = useState<boolean>(false);
 
-        // const onShow = () => {
-        //         if (window.scrollY >= 50) {
-        //                 setShow(true);
-        //         } else {
-        //                 setShow(false);
-        //         }
-        // };
-
-        // window.addEventListener("scroll" , onShow);
 
   return (
     <div className='w-full h-[100px] bg-white flex justify-center items-center px-2 fixed border-y-1 ' >
@@ -25,19 +17,15 @@ const Header = () => {
         </div>
        <div className="flex gap-10 font-[15px] phone:hidden">
        <div className="flex justify-center gap-2 items-center">
-       <Link to="home"
-       smooth={true}
-       offset={200}
-       duration={500}
+       <Link to="/"
+     
        >
         <nav className="hover:cursor-pointer hover:underline    transition-all duration-300">Home</nav>
                 </Link>
         </div> 
 
        <Link to="about"
-        smooth={true}
-        offset={200}
-        duration={500}
+
        >
         <nav className="hover:cursor-pointer hover:underline transition-all duration-300">About</nav>
                 </Link>
@@ -45,9 +33,7 @@ const Header = () => {
 
       
        <Link to="service"
-        smooth={true}
-        offset={200}
-        duration={500}
+       
        >
         <nav className="hover:cursor-pointer hover:underline transition-all duration-300">Services</nav>
                 </Link>
@@ -55,9 +41,7 @@ const Header = () => {
 
    
        <Link to="skills"
-          smooth={true}
-          offset={200}
-          duration={500}
+        
        >
         <nav className="hover:cursor-pointer hover:underline transition-all duration-300">Skills</nav>
                 </Link>

@@ -1,5 +1,5 @@
 import {BsArrowUpRight} from "react-icons/bs"
-import mine2 from "../../assets/Mine2.jpg"
+import mine5 from "../../assets/mine5.jpg"
 import code from "../../assets/code.jpg"
 import uxdesign from "../../assets/uxdesign.webp"
 import brand from "../../assets/Brand.jpg"
@@ -64,8 +64,9 @@ dummy text ever since the 1500s, </span>
 
 
 
-<div className='w-full h-[100vh] items-center flex justify-center'>
-  <div className="w-full sm:w-[60vw] h-[70vh] flex flex-col sm:flex-row justify-center">
+<div className='w-full items-center flex justify-center '>
+
+  <div className="w-full sm:w-[60vw] mt-20 flex flex-col sm:flex-row justify-center">
     <div className='w-full sm:w-1/2 flex flex-col h-full justify-center'>
       <span className='text-[30px] font-semibold'>Services I've Offered</span>
       <span className='mt-5 text-[20px] w-[450px]'>
@@ -79,10 +80,10 @@ I have worked as a software engineer, website designer,
 
 
       </span>
-      <img className='h-[300px] w-full sm:w-[300px] mt-10 object-cover' src={mine2} />
+      <img className='h-[300px] w-full border border-[#c569ce] rounded sm:w-[300px] mt-10 object-cover' src={mine5} />
     </div>
     <div className='w-full sm:w-1/2 h-full'>
-      <div className="w-full h-[200px] border-black mt-10 border-y-2 flex p-10 justify-between items-center">
+      <div className="w-full h-[200px] border-[#c569ce] mt-10 border-y-2 flex p-10 justify-between items-center">
         <img className='h-[100px] w-[130px] rounded object-cover' src={code} />
         <div className='text-[23px]'>Software Development</div>
         <div className='flex flex-col justify-between w-[50px]'>
@@ -102,12 +103,12 @@ I have worked as a software engineer, website designer,
           </a>
         </div>
       </div>
-      <div className="w-full h-[200px] border-black border-y-2 flex p-10 justify-between items-center">
+      <div className="w-full h-[200px] border-[#c569ce] border-y-2 flex p-10 justify-between items-center">
         <img className='h-[100px] w-[130px] rounded object-cover' src={brand} />
         <div className='text-[23px]'>Brand Visibility</div>
         <div className='flex flex-col justify-between w-[50px]'>
          
-          <a href="https://www.behance.net/Josephine1988" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/uniquecreatives1/" target="_blank" rel="noopener noreferrer">
             <button className='px-4 py-4 rounded-full bg-[#ff7e20]'><BsArrowUpRight /></button>
             <div className='mt-2 text-[12px]'>Explore</div>
           </a>

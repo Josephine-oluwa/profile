@@ -1,4 +1,4 @@
-import React from 'react'
+
 import HomeScreen from './HomeScreen'
 import AboutMe from './AboutMe'
 import Skills from './Skills'
@@ -6,21 +6,37 @@ import Latest from './Latest'
 import Footer from './Footer'
 import Services from './Services'
 import Blogs from './Blogs'
-import Testimonials from './Testimonials'
-import Header from '../../Components/common/Header'
+
 
 const Page = () => {
   return (
     <div>
-        <Header/>
+      
+        
         <HomeScreen/>
+        <br/>
+        <br/>
        <AboutMe />  
+       <br/>
+        <br/>
         <Services/>
+     
+        <br/>
+        <br/>
+
         <Skills/>
+        <br/>
+        <br/>
         <Latest/>
-        <Blogs/>
+        <br/>
+        <br/>
+       <Blogs />
+       <br/>
+        <br/>
+        <br/>
         <Footer/>
-    </div>
+       </div>
+  
   )
 }
 
