@@ -20,10 +20,10 @@ const Skills = () => {
 <div>
    <br/>
 <center>**********************</center>
-<div className='w-full h-[120vh]  flex items-center justify-center phone:hidden tablet:hidden  '>
+<div className='w-full h-full flex items-center justify-center phone:hidden tablet:hidden  '>
       
       <div className='w-[60vw]  flex items-center  '>
-      <div className='w-1/2 h-[100vh] '> 
+      <div className='w-1/2 ] max-h-[100vh]'> 
      <div className='flex flex-col '>
      <span className='text-[30px] font-semibold'>Skills and Experience</span>
      <div className='w-[50px] h-0.5 bg-[#ff7e20] mt-5'></div>
@@ -36,7 +36,7 @@ In a rapidly evolving landscape, my diverse skill set is a game-changer, ensurin
         </span>
      </div>
     <div className='flex '>
-    <div className='w-full h-[200px] mt-20 flex gap-5  flex-wrap phone:flex-wrap'> 
+    <div className='w-full  mt-20 flex gap-5  flex-wrap phone:flex-wrap'> 
 
 
   <div className='w-[100px] h-[100px] bg-gray-200  rounded text-[30px] flex justify-center items-center flex-col ' ><FaHtml5 /><span className="text-[15px] mt-2">HTML</span> </div> 
@@ -67,7 +67,7 @@ In a rapidly evolving landscape, my diverse skill set is a game-changer, ensurin
 
 
 
-       <div className='w-1/2 h-[100vh] font-bold '> 
+       <div className='w-1/2 max-h-[100vh] font-bold '> 
        <span className='text-[25px] font-bold text-[#ff7e20]'>Experience</span>
        
       

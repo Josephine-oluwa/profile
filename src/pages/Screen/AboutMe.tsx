@@ -12,12 +12,13 @@ const AboutMe = () => {
 
 
 
-<div className='w-full flex justify-center items-center bg-[#f1eeed] '>
+<div>
+  <div className='w-[100%] h-full flex justify-center items-center bg-[#f1eeed] '>
 
-<div className='w-full xs:w-[90vw] sm:w-[80vw] md:w-[70vw] lg:w-[60vw] flex items-center justify-center mt-20 phone:flex-col '>
+<div className='w-full xs:w-[90vw] sm:w-[80vw] md:w-[70vw] lg:w-[60vw] flex items-center justify-center mt-20 phone:flex-col'>
 
   <div className='w-full '>
-    <div className='w-full h-[100%] sm:w-[450px] flex justify-center items-center border border-[#ff7e20] rounded'>
+    <div className='w-full h-full sm:w-[450px] flex justify-center items-center border border-[#ff7e20] rounded'>
       <img className='w-[90%] h-[90%] mt-5 rounded-[5px] object-cover'
         src={mine4}
       />
@@ -78,6 +79,7 @@ I do this by hosting 1:1 sessions, masterclasses, and I also
   </div>
   </div>
   </div>
+</div>
 
 
 

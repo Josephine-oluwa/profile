@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       screens: {
-        phone : {max: "320px"},
+        phone : {max: "425px"},
         tablet : {max: "768px"}
       }
     },

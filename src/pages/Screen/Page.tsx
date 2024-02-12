@@ -10,32 +10,31 @@ import Blogs from './Blogs'
 
 const Page = () => {
   return (
-    <div>
-      
-        
-        <HomeScreen/>
-        <br/>
-        <br/>
-       <AboutMe />  
-       <br/>
-        <br/>
-        <Services/>
+    // <div>
      
-        <br/>
-        <br/>
+    //     <HomeScreen/>
+    //     {/* <br/>
+    //     <br/>
+    //    <AboutMe />  
+    //    <br/>
+    //     <br/>
+    //     <Services/>
+     
+    //     <br/>
+    //     <br/>
 
-        <Skills/>
-        <br/>
-        <br/>
-        <Latest/>
-        <br/>
-        <br/>
-       <Blogs />
-       <br/>
-        <br/>
-        <br/>
-        <Footer/>
-       </div>
+    //     <Skills/>
+    //     <br/>
+    //     <br/>
+    //     <Latest/>
+    //     <br/>
+    //     <br/>
+    //    <Blogs />
+    //    <br/>
+    //     <br/>
+    //     <br/>
+    //     <Footer/> */}
+    //    </div>
   
   )
 }

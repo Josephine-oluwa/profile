@@ -19,52 +19,52 @@ export const mainRoute = createBrowserRouter ([
         element: <Layout/>,
         children: [
             {
-            
+                    index: true,
                     path: "/",
                     element: <Page/>
                 },
             {
             
-                    path: "/home",
+                    path: "/",
                     element: <HomeScreen/>
                 },
-            {
+            // {
             
-                    path: "/about",
-                    element: <AboutMe/>
-                },
+            //         path: "/about",
+            //         element: <AboutMe/>
+            //     },
          
          
-            {
+            // {
             
-                    path: "/service",
-                    element: <Services/>
-                },
-            {
+            //         path: "/service",
+            //         element: <Services/>
+            //     },
+            // {
             
-                    path: "/blogs",
-                    element: <Blogs/>
-                },
-            {
+            //         path: "/blogs",
+            //         element: <Blogs/>
+            //     },
+            // {
             
-                    path: "/skills",
-                    element: <Skills/>
-                },
-            {
+            //         path: "/skills",
+            //         element: <Skills/>
+            //     },
+            // {
             
-                    path: "/latest",
-                    element: <Latest/>
-                },
-            {
+            //         path: "/latest",
+            //         element: <Latest/>
+            //     },
+            // {
             
-                    path: "/blogs",
-                    element: <Blogs/>
-                },
-            {
+            //         path: "/blogs",
+            //         element: <Blogs/>
+            //     },
+            // {
             
-                    path: "/footer",
-                    element: <Footer/>
-                },
+            //         path: "/footer",
+            //         element: <Footer/>
+            //     },
            
       
                 {
